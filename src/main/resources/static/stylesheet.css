@@ -1,0 +1,115 @@
+.banner {
+    background-color: black;
+    width:1024px;
+    height: 60px;
+    display: inline;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.main-container
+{
+    text-align: center;
+}
+
+.redTeam {
+    background-color: crimson;
+}
+
+.blueTeam {
+    background-color: cornflowerblue;
+}
+
+.emptyTeam
+{
+    background-color: white;
+}
+
+.neutral {
+    background-color: burlywood;
+}
+
+.flipped {
+    background-color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto auto auto;
+    width: 60%;
+    align-content: start;
+    float: left;
+}
+
+.blank-top {
+    margin-top: 8%;
+}
+
+.score-area
+{
+    width: 20%;
+    align-content: center;
+    float: left;
+    font-size: 80px;
+}
+
+.win-area
+{
+    width: 100%;
+    align-content: center;
+    font-size: 80px;
+}
+
+.red {
+    color: darkred;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+.history-container {
+}
+
+.history-item {
+    border: 1px solid;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.mini-frame {
+    width: 150px;
+    height: 100px;
+    display: block;
+    clear: both;
+}
+
+.keyword-mini {
+    width: 70px;
+    float: left;
+    margin: 5px;
+    padding: 6px;
+    text-align: center;
+}
+
+.selected-video-container
+{
+    padding: 2px;
+}
